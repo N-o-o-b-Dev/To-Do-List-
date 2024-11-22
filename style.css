@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #ebf2ff!important;
+}
+
+.addNewBtnOnlyOnPhone{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    padding: 15px 10px;
+    z-index: 3;
+}
+
+@media(min-width:768px){
+    .addNewBtnOnlyOnPhone{
+        display: none;
+    }
+}
